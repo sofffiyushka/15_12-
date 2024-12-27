@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+h1{
+    color: #B6C7D9;
+    font-family: Jura;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118.241%; /* 75.674px */
+    letter-spacing: 7.68px;
+    position: fixed;
+    margin-left: 50%;
+    margin-top: 0.5%;
+}
+#wmap{
+    margin-top: 10%;
+    margin-left: 40%;
+    width: 50%;
+    height: 8.3%;
+    flex-shrink: 0;
+}
+#rectanglepick{
+    width: 220px;
+    height: 100px;
+    background-color: #52ECC3;
+    border-radius: 100px;
+    margin-left: 58%;
+}
+#par{
+    font-family: Jura;
+    color: white;
+    margin-left: 30%;
+}
+#pick {
+    position: fixed;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+h1{
+    color: #B6C7D9;
+    font-family: Jura;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118.241%; /* 75.674px */
+    letter-spacing: 7.68px;
+    position: fixed;
+    margin-left: 40%;
+    margin-top: 0.5%;
+}
+a {
+    text-decoration: none;
+}
+#h1vis{
+    color: #FFF;
+    font-family: Jura;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118.241%; /* 113.511px */
+    letter-spacing: 1.92px;
+    margin-left: 35%;
+    margin-top: 2%;
+}
+#rectanglepick{
+    width: 220px;
+    height: 100px;
+    background-color: #52ECC3;
+    border-radius: 100px;
+    margin-left: 58%;
+}
+#par{
+    font-family: Jura;
+    color: white;
+    margin-left: 30%;
+}
+#pick {
+    position: fixed;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+#rectangleul{
+    margin-left: 15%;
+    margin-top: 12%;
+    width: 78%;
+    height: 1503px;
+    flex-shrink: 0;
+    flex-shrink: 0;
+    border-radius: 22px;
+    background: #D9D9D9;
+    position: fixed;
+}
+#ulcont{
+    color: #000;
+    font-family: Jura;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118.241%; /* 35.472px */
+    letter-spacing: 0.6px;
+}
+ul { list-style:none }
+#myvisits {position : fixed;}
+#myvisits li{
+    color: black;
+    font-family: Jura;
+    font-size: 30px;
+    font-style: normal;
+    letter-spacing: 0.6px;
+}
+#rectimp{
+    padding: 4%;
+    margin-top: 5%;
+    width: 220%;
+    height: 275px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: #B3C1BE;
+}
+#country{
+    margin-top: 1%;
+    width: 314px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #88A39C;
+}
+#country_search{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
+    background: #88A39C;
+    font-family: Jura;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118.241%; /* 35.472px */
+    letter-spacing: 0.6px;
+    border: none;
+    color: white;
+}
+#country_search::placeholder{color:white;}
+#country_impress{
+    color: #000;
+    width: 511px;
+    font-family: Jura;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118.241%; /* 35.472px */
+    letter-spacing: 0.6px;
+    background: #B3C1BE;
+    border: none;
+}
+#country_impress::placeholder{color:black;}
+#thash{
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    margin-left: -34%;
+    margin-top: 5%;
+}
+#wordimp{
+    margin-left: 87%;
+    margin-top: 25%;
+    position: fixed;
+}
+#wordimp1{
+    margin-top: 10%;
+    position: fixed;
+}
+#wordimg{
+    margin-left: 15%;
+    margin-top: 120%;
+    position: relative;
+}

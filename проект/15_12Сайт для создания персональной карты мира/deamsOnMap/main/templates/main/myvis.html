@@ -1,0 +1,18 @@
+{% extends 'main/layout2.html' %}
+{% load static %}
+
+{% block title %}Главная страница{% endblock %}
+
+{% block content%}
+    <link rel="stylesheet" href="{% static 'main/css/myvis.css' %}">
+    <h1 id="h1">Мечты на карте</h1>
+    <h1 id="h1vis">мои визиты</h1>
+    <div id="rectangleul">
+        <h3 id="ulcont">список посещенных мной стран</h3>
+        <ul id="myvisits">
+            <li></li>
+        </ul>
+    </div>
+    <img src="static/main/img/worldmap.png" id="wmap">
+    <div id="rectanglepick"><h2 id="pick"><a href="/">Выбрать</a></h2></div>
+{% endblock %}

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+body{
+    background: #172138;
+}
+aside{
+    position: fixed;
+    float: left;
+    background-color: rgba(44, 104, 104);
+    width: 423px;
+    height: 1133px;
+    flex-shrink: 0;
+    padding: 2.5%;
+    color: #BAECDF;
+    border-right: 5px solid #BAECDF;
+    opacity; 0;
+}
+
+a { text-decoration: none; }
+aside ul { list-style:none }
+
+aside ul li{
+    color: #fff;
+    display: block;
+    margin-top: 15px;
+    color: #BAECDF;
+    font-family: Jura;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 118.241%; /* 33.107px */
+    letter-spacing: 0.56px;
+    margin-left: -16%;
+    margin-bottom: 20%;
+}
+
+.home{
+    width: 31.25px;
+    height: 32.501px;
+    flex-shrink: 0;
+    margin-left: 11.5%;
+    position: fixed;
+}
+
+.myvis{
+    width: 44px;
+    height: 41px;
+    flex-shrink: 0;
+    margin-left: 13%;
+    position: fixed;
+}
+
+.favou{
+    width: 29px;
+    height: 28px;
+    flex-shrink: 0;
+    margin-left: 14%;
+    position: fixed;
+}
+
+.myimp{
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+    margin-left: 9.5%;
+    position: fixed;
+}
+.link{
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+    margin-left: 14%;
+    position: fixed;
+}
+.search{
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+#search-input{
+    background-color: #B6C7D9;
+    color: #172138;
+    font-family: Jura;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 118.241%; /* 28.378px */
+    letter-spacing: 0.48px;
+    margin-top: 0.5%;
+    margin-left: 0.4%;
+    position: fixed;
+    border: none;
+    box-sizing: border-box;
+}
+.simg{
+    background: #B6C7D9;
+    width: 24.094px;
+    height: 24.094px;
+    flex-shrink: 0;
+    border: none;
+}
+#rectangle{
+    margin-top: 8%;
+    margin-bottom: 20%;
+    width:312px;
+    height:100px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 5px solid #EFF0EB;
+    background: #B6C7D9;
+}
+#account{
+    width: 50px;
+    position: fixed;
+    margin-left: 95.5%;
+    margin-top: 1%;
+}
+
+.search-container {
+    position: relative;
+    width: 300px;
+    margin: 50px auto;
+}
+
+.suggestions {
+    border: 1px solid #ccc;
+    border-top: none;
+    position: absolute;
+    width: 312px;
+    height: 367px;
+    flex-shrink: 0;
+    overflow-y: auto;
+    z-index: 1;
+    display: none;
+    flex-shrink: 0;
+    border-radius: 0px 0px 15px 15px;
+    border: 5px solid #EFF0EB;
+    background: #B6C7D9;
+    margin-left: -1.1%;
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+.suggestion-item:hover {
+    background-color: #f0f0f0;
+}

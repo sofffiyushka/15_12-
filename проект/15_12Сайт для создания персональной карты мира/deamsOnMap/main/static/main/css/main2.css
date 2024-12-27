@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+body{
+    background: #172138;
+}
+a { text-decoration: none; }
+aside{
+    position: fixed;
+    float: left;
+    background-color: rgba(44, 104, 104);
+    width: 140px;
+    height: 1133px;
+    flex-shrink: 0;
+    color: #BAECDF;
+    border-right: 5px solid #BAECDF;
+    opacity; 0;
+}
+
+a { text-decoration: none; }
+aside ul { list-style:none; }
+
+aside ul li{
+    color: #fff;
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 118.241%; /* 33.107px */
+    letter-spacing: 0.56px;
+    margin-left: 20%;
+    margin-bottom: 30%;
+}
+
+.home{
+    width: 31.25px;
+    height: 32.501px;
+    flex-shrink: 0;
+    position: ;
+}
+
+.myvis{
+    width: 44px;
+    height: 41px;
+    flex-shrink: 0;
+    margin-left: -7%;
+    position: ;
+}
+
+.favou{
+    width: 29px;
+    height: 28px;
+    flex-shrink: 0;
+    position: ;
+}
+
+.myimp{
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+    position: ;
+}
+.link{
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+    position: ;
+}
+
+.search{
+    background-color: rgba(44, 104, 104)
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+.simg{
+    background-color: rgba(44, 104, 104);
+    width: 24.094px;
+    height: 24.094px;
+    flex-shrink: 0;
+    border: none;
+    color: black;
+}
+#earth{
+    margin: 20%;
+    margin-left: 28%;
+}
+#rectangle{
+    margin-top: 10%;
+    margin-bottom: 20%;
+    width:312px;
+    height:100px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 5px solid #EFF0EB;
+    background: #B6C7D9;
+}
+#account{
+    width: 50px;
+    position: fixed;
+    margin-left: 95.5%;
+    margin-top: 1%;
+}

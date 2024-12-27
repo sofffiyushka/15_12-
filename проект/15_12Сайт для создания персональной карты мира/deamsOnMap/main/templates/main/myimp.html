@@ -1,0 +1,31 @@
+{% extends 'main/layout2.html' %}
+{% load static %}
+<!doctype html>
+<div lang="en">
+{% block title %}Избранное{% endblock %}
+{% block content%}
+    <link rel="stylesheet" href="{% static 'main/css/myimp.css' %}">
+    <h1 id="h1">Мечты на Карте</h1>
+    <h1 id="h1vis">мои впечатления</h1>
+    <div id="rectangleul">
+        <ul id="myvisits">
+            <li>
+                <div id="rectimp">
+                    <div id="country"><input placeholder="Введите страну" type="search" id="country_search"></div>
+                    <input placeholder="Напиши о своем впечатлении" type="text" id="country_impress">
+                    <img src="static/main/img/thash.png" id="thash">
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div id="wordimp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="163" height="163" viewBox="0 0 163 163" fill="none" id="wordimp1">
+            <circle cx="81.5" cy="81.5" r="81.5" fill="#52ECC3"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="137" height="137" viewBox="0 0 137 137" fill="none" id="wordimg">
+            <path d="M107.031 17.2534C103.756 17.2534 100.537 18.5378 98.0663 21.0038L55.6562 63.2769L54.7144 64.2187L54.4575 65.5588L51.5034 80.5431L50.1763 86.828L56.4568 85.5008L71.4412 82.5468L72.7812 82.2899L73.7231 81.348L115.996 38.9379C117.767 37.1613 118.972 34.9004 119.46 32.44C119.947 29.9797 119.696 27.4301 118.738 25.1123C117.779 22.7945 116.156 20.8122 114.073 19.4153C111.989 18.0183 109.539 17.2691 107.031 17.262V17.2534ZM107.031 25.559C108.037 25.559 109.018 26.0728 109.977 27.0275C111.886 28.9369 111.886 31.0005 109.977 32.9142L68.5 74.3824L61.1362 75.8552L62.6133 68.4914L104.09 27.0147C105.045 26.0599 106.025 25.5462 107.031 25.5462V25.559ZM17.125 34.25V119.875H102.75V63.4138L94.1875 71.9763V111.312H25.6875V42.8125H65.0236L73.5861 34.25H17.125Z" fill="#0B1631"/>
+        </svg>
+    </div>
+</div>
+
+{% endblock%}
